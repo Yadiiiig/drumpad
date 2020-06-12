@@ -1,0 +1,9 @@
+svg {
+    margin-bottom: -4px;
+    margin-right: -8px;
+    border: 4px black solid;
+}
+
+svg:hover {
+    background-color: blue;
+}

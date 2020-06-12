@@ -22,5 +22,10 @@ def charCode(ev):
     except:
         pass
 
+def padPress(ev):
+    print(document["test"].name)
+    document["pad0"].play()
+
 load_sounds()
 document["charCode"].bind("keypress", charCode)
+document["test"].bind("click", padPress)
